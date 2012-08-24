@@ -2,6 +2,7 @@
 set autochdir
 filetype plugin indent off
 "pathogen,vim addons manager
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 "powerline
 let g:Powerline_symbols = 'fancy'
