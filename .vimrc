@@ -169,3 +169,6 @@ let g:pymode_folding = 0
 "========================
 "c.vim
 let g:C_LoadMenus = 'no'
+
+" tagbar
+nmap <F8> :TagbarToggle<CR> 
